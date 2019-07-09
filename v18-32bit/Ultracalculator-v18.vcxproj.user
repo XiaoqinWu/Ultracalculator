@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<PropertyGroup Condition="'$(Platform)|$(PlatformToolset)'=='Win32|v100'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2014\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX\ObjectARX 2013\inc;D:\Program Files\ObjectARX\ObjectARX 2013\inc-win32;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX\ObjectARX 2013\lib-win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+</Project>

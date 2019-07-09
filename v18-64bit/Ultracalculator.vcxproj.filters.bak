@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Form">
+      <UniqueIdentifier>{215f0de4-d286-415e-8ee0-94506eda7920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Arx">
+      <UniqueIdentifier>{2e7be4aa-94d8-409f-8e23-82fdc19209c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{cddd0bfa-1968-4482-a92b-69dfddb34d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Express">
+      <UniqueIdentifier>{085b96b2-1af0-4f32-8f10-bc3d3a0b73a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Help">
+      <UniqueIdentifier>{53a14e1a-9294-402e-9a43-6eb2eb577ea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultracalculator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>源文件\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="Maindlg.cpp">
+      <Filter>源文件\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultDText.cpp">
+      <Filter>源文件\Arx</Filter>
+    </ClCompile>
+    <ClCompile Include="Express.cpp">
+      <Filter>源文件\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdHandler.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper.cpp">
+      <Filter>源文件\Help</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextJig.cpp">
+      <Filter>源文件\Arx</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdHelper.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CArxHelper.cpp">
+      <Filter>源文件\Arx</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>源文件\Arx</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntitySelector.cpp">
+      <Filter>源文件\Arx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Maindlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stringhelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultDText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Express.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Except.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntitySelector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CArxHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ultracalculator.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
