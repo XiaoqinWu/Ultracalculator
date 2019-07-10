@@ -1,0 +1,170 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,2,7,7
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "吴晓勤"
+            VALUE "FileDescription", "AutoCAD 插件"
+            VALUE "FileVersion", "3, 2, 7, 7"
+            VALUE "InternalName", "Ultracalculator"
+            VALUE "LegalCopyright", "Copyright 2009-2018"
+            VALUE "OriginalFilename", "懒人计算器"
+            VALUE "ProductName", "懒人计算器 3.0"
+            VALUE "ProductVersion", "3.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 173, 153
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "懒人计算器 3.0"
+FONT 8, "Tahoma", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,4,6,166,16,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "=",IDC_BUTTON_JS,149,29,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON_ZK,149,68,17,14
+    PUSHBUTTON      "×",IDC_BUTTON1,6,29,17,14
+    PUSHBUTTON      "Φ",IDC_BUTTON2,29,29,17,14
+    PUSHBUTTON      "sΣ",IDC_BUTTON3,53,29,17,14
+    PUSHBUTTON      "Σ",IDC_BUTTON4,77,29,17,14
+    PUSHBUTTON      "ssl",IDC_BUTTON5,101,29,17,14
+    PUSHBUTTON      "hrb",IDC_BUTTON6,125,29,17,14
+    PUSHBUTTON      "al",IDC_BUTTON7,6,48,17,14
+    PUSHBUTTON      "dc",IDC_BUTTON8,29,48,17,14
+    PUSHBUTTON      "gn",IDC_BUTTON9,53,48,17,14
+    PUSHBUTTON      "stb",IDC_BUTTON10,77,48,17,14
+    GROUPBOX        "输出模式",IDC_STATIC,4,120,108,27
+    GROUPBOX        "",IDC_STATIC_KEY,4,20,166,65
+    PUSHBUTTON      "sdos",IDC_BUTTON11,101,48,17,14
+    CONTROL         "新建",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY | WS_GROUP,6,132,32,10
+    CONTROL         "修改",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,42,132,32,10
+    GROUPBOX        "排列模式",IDC_STATIC,4,90,108,27
+    CONTROL         "自动",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,78,132,32,10
+    CONTROL         "X坐标",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY | WS_GROUP,6,103,36,10
+    CONTROL         "Y坐标",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,42,103,36,10
+    COMBOBOX        IDC_COMBO1,131,101,25,14,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "自动",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,78,103,32,10
+    GROUPBOX        "小数位",IDC_STATIC,123,90,41,27
+    PUSHBUTTON      "dot",IDC_BUTTON12,125,48,17,14
+    PUSHBUTTON      "clr",IDC_BUTTON13,149,48,17,14
+    PUSHBUTTON      "spl",IDC_BUTTON14,6,68,17,14
+    PUSHBUTTON      "splt",IDC_BUTTON15,29,68,17,14
+    PUSHBUTTON      "spld",IDC_BUTTON16,53,68,17,14
+    PUSHBUTTON      "splb",IDC_BUTTON17,77,68,17,14
+    PUSHBUTTON      "—",IDC_BUTTON18,101,68,17,14
+    PUSHBUTTON      "T",IDC_BUTTON19,125,68,17,14
+    EDITTEXT        IDC_EDIT_HEIGHT,131,132,25,12,ES_AUTOHSCROLL
+    GROUPBOX        "字高",IDC_STATIC,123,120,41,27
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 170
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 152
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PROJNAME            "Ultracalculator"
+    IDS_HELP_USAGE          "\n\n用法:\n\t1.常表达式;如:1+sin(30)+sqrt(abs(-2))\n\t2.带参数的表达式;如:1+sin(a)+sqrt(abs(b))字母a,b自动设为参数;\n"
+    IDS_CONTECT             "\n-----------------------懒人计算器帮助---------------------------\n作者QQ:158990807 下载地址:http://netbat.ys168.com"
+    IDS_HELP                "\n\n功能：\n\t计算数学表达式的值。"
+    IDS_HELP_FUNCTION       "\n\n特点:\n\t1.支持带参数的数学表达式计算。\n\t2.支持各种常用函数,如:\n\t\t\t三角函数 cos(x),sin(x),tan(x),cot(x)\n\t\t\t反三角函数 acos(x),asin(x),atan(x),acot(x)\n\t\t\t双曲函数 cosh(x),sinh(x),tanh(x)\n\t\t\t指数函数 sqrt(x),exp(x),pow(x,y)\n\t\t\t对数函数 ln(x),log(x)\n\t\t\t其它函数: floor(x) 取整\n\t\t\t\t\t\t\t\tmod(x,y) 求余\n\t\t\t\t\t\t\t\tabs(x) 取绝对值\n\t\t\t\t\t\t\t\trand(x) 随机函数\n\t3.支持从CAD图纸里面获得计算数据,并将计算结果输出到图纸。"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

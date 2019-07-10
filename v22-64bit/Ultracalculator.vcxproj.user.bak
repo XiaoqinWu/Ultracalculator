@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|Win32|v71'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2008\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2006\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2006\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|Win32|v80'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2008\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2007\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2007\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|Win32|v90'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2012 - Simplified Chinese\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2010\inc;D:\Program Files\ObjectARX 2010\inc-win32;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2010\lib-win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|Win32|v71'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2004\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2006\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2006\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;</LibraryPath>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|Win32|v80'">
+    <LocalDebuggerCommand>D:\Program Files\AutoCAD 2007\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2007\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2007\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|Win32|v90'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2012 - Simplified Chinese\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2010\inc;D:\Program Files\ObjectARX 2010\inc-win32;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2010\lib-win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|x64|v80'">
+    <LocalDebuggerCommand>D:\Program Files\AutoCAD 2007\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2007\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2007\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|x64|v90'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2012 - Simplified Chinese\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2010\inc;D:\Program Files\ObjectARX 2010\inc-x64;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2010\lib-x64;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|x64|v80'">
+    <LocalDebuggerCommand>D:\Program Files\AutoCAD 2007\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2007\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2007\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|x64|v90'">
+    <LocalDebuggerCommand>D:\Program Files\Autodesk\AutoCAD 2012 - Simplified Chinese\acad.exe</LocalDebuggerCommand>
+    <IncludePath>D:\Program Files\ObjectARX 2010\inc;D:\Program Files\ObjectARX 2010\inc-x64;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(FrameworkSDKDir)include;</IncludePath>
+    <LibraryPath>D:\Program Files\ObjectARX 2010\lib-x64;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)atlmfc\lib\i386;$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)PlatformSDK\common\lib;$(FrameworkSDKDir)lib;$(VSInstallDir);$(VSInstallDir)lib;</LibraryPath>
+  </PropertyGroup>
+</Project>
